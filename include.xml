@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension>
+	<dependency name="google-play-services-basement" path="dependencies/google-play-services-basement" if="android" /> 
+</extension>
