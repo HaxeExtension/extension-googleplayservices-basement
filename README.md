@@ -13,7 +13,18 @@ haxelib install extension-googleplayservices-basement
 
 ###How to use this to build an extension
 
-If you're developing extensions or implementing features that requires Google Play Services library, you just need to add ```<haxelib name="extension-googleplayservices-basement" />``` into your project.xml.
+If you're developing extensions or implementing features that requires Google Play Services library, you just need to add something like this to your project.xml.
+```xml
+<set name="google-play-services-basement" />
+<set name="google-play-services-games" />
+<set name="google-play-services-base" />
+<set name="google-play-services-plus" />
+<set name="google-play-services-drive" />
+<set name="google-play-services-auth" />
+<set name="google-play-services-ads-lite" />
+<haxelib name="extension-googleplayservices-basement" />
+```
+
 
 Also, if you're building an extension that contains an Android Library, you may need to add the following line to your project.properties
 ```
@@ -27,6 +38,13 @@ android.library=true
 target=android-::ANDROID_TARGET_SDK_VERSION::
 android.library.reference.1=../extension-api
 android.library.reference.2=../google-play-services-basement
+android.library.reference.3=../google-play-services-plus
+android.library.reference.4=../google-play-services-drive
+android.library.reference.5=../google-play-services-games
+android.library.reference.6=../google-play-services-base
+android.library.reference.7=../google-play-services-auth
+android.library.reference.8=../google-play-services-ads-lite
+
 ```
 
 ###Disclaimer

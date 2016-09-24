@@ -1,4 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension>
-	<dependency name="google-play-services-basement" path="dependencies/google-play-services-basement" if="android" /> 
+	<section if="android">
+		
+		<dependency name="google-play-services-basement"
+			path="dependencies/google-play-services-basement"
+			if="google-play-services-basement" />
+
+		<dependency name="google-play-services-ads-lite"
+			path="dependencies/google-play-services-ads-lite"
+			if="google-play-services-ads-lite" />
+		
+		<dependency name="google-play-services-auth"
+			path="dependencies/google-play-services-auth"
+			if="google-play-services-auth" />
+		
+		<dependency name="google-play-services-base"
+			path="dependencies/google-play-services-base"
+			if="google-play-services-base" />
+		
+		<dependency name="google-play-services-drive"
+			path="dependencies/google-play-services-drive"
+			if="google-play-services-drive" />
+		
+		<dependency name="google-play-services-plus"
+			path="dependencies/google-play-services-plus"
+			if="google-play-services-plus" />
+
+		<dependency name="google-play-services-games"
+			path="dependencies/google-play-services-games"
+			if="google-play-services-games" />
+	
+	</section>
 </extension>

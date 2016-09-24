@@ -5,6 +5,6 @@
         "contributors":["fbricker"],
         "tags": ["api","google-play-services","gps","openfl","nme"],
         "description": "OpenFL/NME :: Google Play Services Basement Libreary for Android.",
-        "version": "1.0.0",
-        "releasenote": "First release... 9.6.0"
+        "version": "1.0.1",
+        "releasenote": "Add Ads-Lite, Auth, Base, Drive and Plus Libs"
 }
