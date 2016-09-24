@@ -29,6 +29,14 @@
 		<dependency name="google-play-services-games"
 			path="dependencies/google-play-services-games"
 			if="google-play-services-games" />
-	
+
+		<dependency name="google-play-services-gcm"
+			path="dependencies/google-play-services-gcm"
+			if="google-play-services-gcm" />
+
+		<dependency name="google-play-services-iid"
+			path="dependencies/google-play-services-iid"
+			if="google-play-services-iid" />
+
 	</section>
 </extension>
