@@ -47,6 +47,14 @@ android.library.reference.8=../google-play-services-ads-lite
 
 ```
 
+###Adding more dependencies
+
+If you need to add more dependencies, you can run `./select_dependencies.sh` and select the needed google play services libraries from the list. These will become available afterwards as per above method.
+
+###Updating dependencies
+
+If you need to update the libraries, simply run `./update_dependencies.sh`
+
 ###Disclaimer
 
 Google is a registered trademark of Google Inc.
