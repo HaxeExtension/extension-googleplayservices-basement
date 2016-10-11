@@ -5,6 +5,6 @@
         "contributors":["fbricker"],
         "tags": ["api","google-play-services","gps","openfl","nme"],
         "description": "OpenFL/NME :: Google Play Services Basement Libreary for Android.",
-        "version": "1.0.2",
-        "releasenote": "Add GCM and IID for AmazonSNS Extension"
+        "version": "1.1.0",
+        "releasenote": "Add scripts to enable and update more libraries"
 }
