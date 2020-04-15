@@ -1,17 +1,17 @@
-#extension-googleplayservices-basement
+# extension-googleplayservices-basement
 
 OpenFL extension that simply adds Google Play Services Basement into your project [for android targets].
 
 This library does not provide any functionality, since it's intended to be used by other libraries (such as Google Play Games, and Google AdMob).
 
-###How to Install
+### How to Install
 
 To install this library, you can simply get the library from haxelib like this:
 ```bash
 haxelib install extension-googleplayservices-basement
 ```
 
-###How to use this to build an extension
+### How to use this to build an extension
 
 If you're developing extensions or implementing features that requires Google Play Services library, you just need to add something like this to your project.xml.
 ```xml
@@ -47,21 +47,21 @@ android.library.reference.8=../google-play-services-ads-lite
 
 ```
 
-###Adding more dependencies
+### Adding more dependencies
 
 If you need to add more dependencies, you can run `./select_dependencies.sh` and select the needed google play services libraries from the list. These will become available afterwards as per above method.
 
-###Updating dependencies
+### Updating dependencies
 
 If you need to update the libraries, simply run `./update_dependencies.sh`
 
-###Disclaimer
+### Disclaimer
 
 Google is a registered trademark of Google Inc.
 http://unibrander.com/united-states/140279US/google.html
 
 
-###License
+### License
 
 The MIT License (MIT) - [LICENSE.md](LICENSE.md)
 
